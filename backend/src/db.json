@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "anna",
+      "password": "password",
+      "avatar": "avatar1.png",
+      "createdAt": "2026-05-19T12:00:00.000Z"
+    },
+    {
+      "id": "u2",
+      "username": "erik",
+      "password": "password",
+      "avatar": "avatar2.png",
+      "createdAt": "2026-05-19T12:05:00.000Z"
+    },
+    {
+      "id": "user-1779204721595-c48f287bec2aa",
+      "username": "david",
+      "password": "123456",
+      "avatar": "avatar1.png",
+      "createdAt": "2026-05-19T15:32:01.595Z"
+    },
+    {
+      "id": "user-1779205749567-fdea9f8815c0e",
+      "username": "fasdsa",
+      "password": "asdasfasfas",
+      "avatar": "avatar2.png",
+      "createdAt": "2026-05-19T15:49:09.567Z"
+    }
+  ],
+  "forums": [
+    {
+      "id": "general",
+      "title": "Allmänt",
+      "description": "Prata om vardag, skola och allt däremellan."
+    },
+    {
+      "id": "tech",
+      "title": "Teknik",
+      "description": "Diskussioner om kod, prylar och webbutveckling."
+    },
+    {
+      "id": "gaming",
+      "title": "Gaming",
+      "description": "Spel, tips, recensioner och turneringar."
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "forumId": "general",
+      "userId": "u1",
+      "text": "Välkommen till forumet!",
+      "likes": [
+        "u2",
+        "user-1779204721595-c48f287bec2aa"
+      ],
+      "createdAt": "2026-05-19T12:10:00.000Z",
+      "updatedAt": "2026-05-19T12:10:00.000Z"
+    },
+    {
+      "id": "c2",
+      "forumId": "tech",
+      "userId": "u2",
+      "text": "TypeScript gör Express-projekt mycket tydligare.",
+      "likes": [],
+      "createdAt": "2026-05-19T12:20:00.000Z",
+      "updatedAt": "2026-05-19T12:20:00.000Z"
+    },
+    {
+      "id": "comment-1779204916191-10850710330258",
+      "forumId": "general",
+      "userId": "user-1779204721595-c48f287bec2aa",
+      "text": "kojad",
+      "likes": [
+        "user-1779204721595-c48f287bec2aa"
+      ],
+      "createdAt": "2026-05-19T15:35:16.191Z",
+      "updatedAt": "2026-05-19T15:35:19.695Z"
+    },
+    {
+      "id": "comment-1779204932262-ea0faa0f4f1ae8",
+      "forumId": "tech",
+      "userId": "user-1779204721595-c48f287bec2aa",
+      "text": "dsfdsfsd",
+      "likes": [],
+      "createdAt": "2026-05-19T15:35:32.262Z",
+      "updatedAt": "2026-05-19T15:35:32.262Z"
+    },
+    {
+      "id": "comment-1779204939203-54d9b15ca6c278",
+      "forumId": "gaming",
+      "userId": "user-1779204721595-c48f287bec2aa",
+      "text": "sdfds",
+      "likes": [],
+      "createdAt": "2026-05-19T15:35:39.203Z",
+      "updatedAt": "2026-05-19T15:35:39.203Z"
+    },
+    {
+      "id": "comment-1779204940693-27fad532592238",
+      "forumId": "gaming",
+      "userId": "user-1779204721595-c48f287bec2aa",
+      "text": "fghf",
+      "likes": [],
+      "createdAt": "2026-05-19T15:35:40.693Z",
+      "updatedAt": "2026-05-19T15:35:40.693Z"
+    }
+  ]
+}
